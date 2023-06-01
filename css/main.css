@@ -689,3 +689,105 @@
 .balance-value strong {
   font-size: 22px;
 }
+
+.text-description {
+  font-size: 18px;
+  line-height: 150%;
+}
+.text-description p {
+  margin: 0 0 30px;
+}
+.text-description p:last-child {
+  margin: 0;
+}
+
+.politics-box a {
+  text-decoration: underline;
+}
+
+.politics-box h3 {
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  margin: 0 0 8px;
+}
+
+.politics-box .box-text {
+  line-height: 150%;
+}
+.politics-box .box-text p {
+  margin: 0 0 20px;
+}
+.politics-box .box-text p:last-child {
+  margin: 0;
+}
+
+.politics-box ul,
+.politics-box ol {
+  line-height: 150%;
+}
+
+.politics-box ul li,
+.politics-box ol li {
+  margin: 0 0 5px;
+}
+
+.politics-box ol ul {
+  margin: 5px 0 0;
+}
+
+.politics-box ul ol {
+  margin: 5px 0 0;
+}
+
+.politics-box h4 {
+  margin: 20px 0 8px;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.result-search {
+  width: 100%;
+  padding: 40px 0;
+}
+.result-search-text {
+  text-align: center;
+}
+.result-search-alert {
+  margin: 32px 0 0;
+  padding: 40px 64px;
+  font-size: 18px;
+  line-height: 150%;
+}
+.result-search-alert h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+
+.result-search-text p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #4b5563;
+  margin: 0 0 8px;
+}
+
+.result-search-text h3 {
+  margin: 32px auto 0;
+  font-size: 28px;
+  font-weight: 600;
+  max-width: 768px;
+  width: 100%;
+}
+
+.result-search-text h2 span {
+  font-weight: normal;
+}
+
+.btn-download {
+  margin: 0 auto 40px;
+  max-width: 403px;
+  width: 100%;
+  border-radius: 40px;
+}

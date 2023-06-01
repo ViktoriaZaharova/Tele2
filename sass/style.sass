@@ -46,6 +46,18 @@ body
 	background: #fff
 	color: #191D24
 
+html,
+body
+	height: 100%
+
+.wrapper
+	display: flex
+	flex-direction: column
+	height: 100%
+
+.content
+	flex: 1 0 auto
+
 img
 	display: block
 	max-width: 100%
@@ -221,6 +233,26 @@ h2,
 .color-blue
 	color: #1E40AF
 
+.color-accent
+	color: #ED5A9B
+
+a.color-accent
+	color: #ED5A9B
+	&:hover
+		color: #000
+
+.color-red
+	color: #B71600
+
+.color-green
+	color: #30B700
+
+.bg-light-red
+	background: #FDEDEC
+
+.bg-light-green
+	background: #ECFDF5
+
 .text-decoration
 	text-decoration-line: underline
 
@@ -334,6 +366,11 @@ h2,
 	&:focus
 		color: #374151
 
+.nav-breadcrumb
+	width: 100%
+	margin: 16px 0
+	padding: 0 0 0 64px
+
 .breadcrumb
 	background: transparent
 	padding: 0
@@ -345,17 +382,16 @@ h2,
 	align-items: flex-start
 	font-size: 14px
 	font-weight: 500
-	color: #1e3a8a
-
+	color: #6F7485
 	a
-		color: #667085
+		color: #191D24
 		&:hover
-		  color: #1e3a8a
+			color: #ED5A9B
 
-	&-item.active
-		color: #1e3a8a
+	.breadcrumb-item.active
+		color: #6F7485
 
-	&-item + &-item
+	.breadcrumb-item + .breadcrumb-item
 		padding: 0
 		display: -webkit-box
 		display: -ms-flexbox
@@ -364,7 +400,7 @@ h2,
 		-ms-flex-align: center
 		align-items: center
 
-	&-item + &-item:before
+	.breadcrumb-item + .breadcrumb-item:before
 		content: ""
 		padding: 0
 		width: 16px
